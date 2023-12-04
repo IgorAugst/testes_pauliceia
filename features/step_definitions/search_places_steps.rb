@@ -1,9 +1,8 @@
-Given(/^I am on the home page$/) do
-  visit 'http://localhost:8080/'
+Given(/^I am on the map page$/) do
+  visit 'https://pauliceia.unifesp.br/portal/explore'
 end
 
 When(/^I fill in "(.*)" with "(.*)"$/) do |xpath, value|
-  print(xpath)
   fill_in with: value
 end
 
