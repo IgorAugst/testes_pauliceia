@@ -1,5 +1,5 @@
 Given(/^I visit Pauliceia$/) do
-  visit 'https://pauliceia.unifesp.br'
+  visit '/'
 end
 
 Then(/^I should see "([^"]*)"$/) do |expected|

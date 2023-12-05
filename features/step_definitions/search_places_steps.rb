@@ -1,5 +1,5 @@
 Given(/^I am on the map page$/) do
-  visit 'https://pauliceia.unifesp.br/portal/explore'
+  visit '/portal/explore'
   find(:xpath, '/html/body/div/section/div/section/div/section[3]/header/button').click
 end
 
