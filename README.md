@@ -6,4 +6,8 @@
 4. Utilize o comando cucumber para rodar todos os testes de aceitação
 
 # Exemplo
-![Vídeo executando os testes](./media/gravacao_mais_teste.mp4)
+
+
+
+https://github.com/IgorAugst/testes_pauliceia/assets/61761206/8578afd3-08b6-4b0d-9b28-2b29b6714993
+
