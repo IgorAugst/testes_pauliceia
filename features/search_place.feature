@@ -5,6 +5,12 @@ Feature: Search for a place
 
     Scenario: Search for a existing place
         Given I am on the map page
-        When I fill in "Busca" with "Rua 1, 2, 1900"
+        When I fill in "Busca" with "rua doutor martinico prado, 29, 1909"
         And I press "btn btn-search"
-        Then I should find "Rua 1, 2, 1900"
+        Then I should find "rua doutor martinico prado, 29, 1909"
+
+    Scenario: Search for a non existing place
+Given I am on the map page
+        When I fill in "Busca" with "rua nao existe, 29, 1909"
+        And I press "btn btn-search"
+        Then I should not find "rua nao existe, 29, 1909"

@@ -11,5 +11,5 @@ When(/^I click on a layer$/) do
 end
 
 Then(/^I should see the map with the selected layer$/) do
-  expect(page).to have_text('Construinhdo Mapa')
+  expect(page).to have_text('Construindo Mapa')
 end
