@@ -6,3 +6,8 @@ Feature: Change the language to english
     Given I am on the map page
     When I click on the language button
     Then the language should change to english
+
+  Scenario: Changing the language to Portuguese
+    Given I am on the home page
+    When I clicke on the Portuguese language button
+    Then the language should change to Portuguese
