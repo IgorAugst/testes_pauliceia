@@ -4,7 +4,8 @@
 2. Inicialize o Pauliceia-vgiws em Python na porta 8888
 3. Siga as instruções do projeto Pauliceia em Vuejs e adicione as portas dos serviços anteriores e inicialize o projeto
 4. Instale o navegador Chrome
-5. Utilize o comando cucumber para rodar todos os testes de aceitação.
+5. No arquivo features/step_definitions/search_file_steps.rb, linha 8, configure o caminho para o arquivo csv de acordo com sua máquina
+6. Utilize o comando cucumber para rodar todos os testes de aceitação.
 
 # Exemplo
 
