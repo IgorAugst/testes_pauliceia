@@ -16,4 +16,4 @@ Feature: As an user, I want to be able to login to my account so that I can acce
     Given I am on the login page
     When I fill in my account information "noregistered@email.com" and "password"
     And I press Entrar
-    Then I shuld receive an error "E-mail ou senha incorreta!"
+    Then I should receive an error "E-mail ou senha incorreta!"
