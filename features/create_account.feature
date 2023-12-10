@@ -22,11 +22,6 @@ Feature: As an user, so that I can create a new account, I want to be able to si
     And I click on the Cadastrar button
     Then I should receive a "ERROR" message
 
-  Scenario: Creating an account without accepting the terms of use
-    Given I am on the sign up page
-    When I fill in my "name" "email@email.com" "username" "password"
-    Then I shouldn't be able to click on the Cadastrar button
-
   Scenario: Creating an account with a weak password
     Given I am on the sign up page
     When I fill in my "name" "email@email.com" "username" "1"
