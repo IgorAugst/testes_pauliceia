@@ -11,8 +11,6 @@ Obs: É imprescindível executar todo o código localmente, visto que algumas et
 
 # Exemplo
 
+https://github.com/IgorAugst/testes_pauliceia/assets/61761206/8d8dbf97-806d-4918-8163-ae7eaa771576
 
-https://github.com/IgorAugst/testes_pauliceia/assets/61761206/69df32d4-5bef-47bd-9e84-58063046733e
-
-
-
+[Gravação dos testes](https://github.com/IgorAugst/testes_pauliceia/blob/main/media/gravacao_completa.mp4)
