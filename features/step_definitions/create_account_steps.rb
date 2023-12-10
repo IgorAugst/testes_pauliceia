@@ -25,7 +25,3 @@ end
 Then(/^I should receive a "([^"]*)" message$/) do |message|
   expect(page).to have_content(message)
 end
-
-Then(/^I shouldn't be able to click on the Cadastrar button$/) do
-  expect(page).to have_content('Cadastrar', disabled: true)
-end
