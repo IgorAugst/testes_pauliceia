@@ -19,3 +19,15 @@ end
 Then(/^I should receive an error "(.*)"$/) do |message|
   expect(page).to have_content(message)
 end
+
+Then(/^I should find "([^"]*)" on the page$/) do |message|
+  expect(page.has_content?(message)).to be true
+end
+
+When(/^I click on the profile button$/) do
+  find(:xpath, '/html/body/div/section/div/header/nav/div/div[1]/div/button').click
+end
+
+And(/^I click on the logout button$/) do
+  find(:xpath, '/html/body/div[2]/div/ul/li[3]/button').click
+end
