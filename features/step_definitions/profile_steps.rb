@@ -19,6 +19,6 @@ Then(/^I should be on dashboard page$/) do
   expect(current_url).to include '/portal/dashboard/home'
 end
 
-Then(/^I should receive an success "(.*)"$/) do |message|
+Then(/^I should receive a success "(.*)"$/) do |message|
   expect(page).to have_content(message)
 end
