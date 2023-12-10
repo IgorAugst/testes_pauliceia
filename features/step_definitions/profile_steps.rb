@@ -1,4 +1,4 @@
-Given(/^I am on the Profile page$/) do
+And(/^I am on the Profile page$/) do
   visit 'portal/dashboard/profile'
 end
 
