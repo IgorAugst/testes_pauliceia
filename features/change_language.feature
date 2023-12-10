@@ -9,5 +9,5 @@ Feature: Change the language to english
 
   Scenario: Changing the language to Portuguese
     Given I am on the home page
-    When I clicke on the Portuguese language button
+    When I click on the Portuguese language button
     Then the language should change to Portuguese
