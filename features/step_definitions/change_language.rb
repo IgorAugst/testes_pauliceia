@@ -2,6 +2,10 @@ Given(/^I am on the home page$/) do
   visit '/portal/home'
 end
 
+When(/^I clicke on the Portuguese language button$/) do |name, email, username, password|
+  find(:xpath, '/html/body/div/section/div/header/nav/div/div[2]/i[1]').click
+end
+
 When(/^I click on the language button$/) do
   find(:xpath, '/html/body/div[1]/section/div/header/nav/div/div[2]/i[2]').click
 end
